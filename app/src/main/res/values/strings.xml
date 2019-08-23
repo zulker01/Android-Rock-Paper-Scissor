@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="gameName">Rock Paper Scissior</string>
+    <string name="startButton">Start Game</string>
+    <string name="helpButton">Help !</string>
+    <string name="quitButton">Quit !</string>
+    <string name="helpToast">Just go on and click to enjoy</string>
+    <string name="quitToast">Don\'t wanna play more ? best of luck</string>
+
+</resources>

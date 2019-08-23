@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@android:dimen/app_icon_size"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/gameName"
+        android:layout_width="230sp"
+        android:layout_height="77sp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/gameName"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+
+        />
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="@string/startButton"
+        android:textSize="10sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:text="@string/helpButton"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:text="@string/quitButton"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
