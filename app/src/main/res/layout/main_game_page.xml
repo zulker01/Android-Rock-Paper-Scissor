@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainGame"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+
+    <TextView
+        android:id="@+id/scoreBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/scoreBoard"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="11sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_marginLeft="11sp"
+
+        />
+
+    <TextView
+        android:id="@+id/scoreNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11sp"
+        android:layout_marginTop="11sp"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
+    <Button
+        android:id="@+id/rockButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="@string/rockButton"
+        android:textSize="10sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <Button
+        android:id="@+id/paperButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:text="@string/paperButton"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/scissorButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:text="@string/scissorButton"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="137sp"
+        android:layout_height="72sp"
+        android:text="@string/backButton"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

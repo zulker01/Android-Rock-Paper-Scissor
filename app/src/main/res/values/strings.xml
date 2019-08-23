@@ -7,4 +7,10 @@
     <string name="helpToast">Just go on and click to enjoy</string>
     <string name="quitToast">Don\'t wanna play more ? best of luck</string>
 
+    <string name="scoreBoard">Score</string>
+    <string name="rockButton">Rock</string>
+    <string name="paperButton">Paper</string>
+    <string name="scissorButton">Scissor</string>
+    <string name="backButton">Back</string>
+
 </resources>
