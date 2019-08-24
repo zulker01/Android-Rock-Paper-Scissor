@@ -43,9 +43,9 @@ public class mainGame extends AppCompatActivity {
             public void onClick(View view) {
 
                      pcChoice = rand.nextInt(3);
-                     if(pcChoice == 0)
+                     if(pcChoice == 2)
                          points = points + 2;
-                     else
+                     else if(pcChoice == 1)
                          points = points - 1;
                 score.setText(points.toString());
             }
@@ -56,9 +56,9 @@ public class mainGame extends AppCompatActivity {
             public void onClick(View view) {
 
                 pcChoice = rand.nextInt(3);
-                if(pcChoice == 1)
+                if(pcChoice == 0)
                     points = points + 2;
-                else
+                else if(pcChoice == 2)
                     points = points - 1;
                 score.setText(points.toString());
             }
@@ -69,9 +69,9 @@ public class mainGame extends AppCompatActivity {
             public void onClick(View view) {
 
                 pcChoice = rand.nextInt(3);
-                if(pcChoice == 2)
+                if(pcChoice == 1)
                     points = points + 2;
-                else
+                else if(pcChoice == 0)
                     points = points - 1;
                 score.setText(points.toString());
             }
